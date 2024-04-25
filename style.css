@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(53, 53, 235);
+    background-color: rgb(53, 235, 80);
 
 }
 
@@ -18,18 +18,27 @@ main{
 
 h1{
     font-size: 2em;
-    color: rgb(107, 107, 227);
+    background: rgb(6, 80, 34);
+    border-radius: 10px;
+    padding: 0px 9px;
+    text-align: center;
+    color: rgb(214, 231, 246);
 }
 
 
 h2{
     font-size: 2em;
-    color: rgb(107, 107, 227);
+    background: rgb(6, 80, 34);
+    border-radius: 10px;
+    padding: 0px 9px;
+    text-align: center;
+    color: rgb(214, 231, 246);
 }
 
 img{
     max-width: 300px;
     max-height: 300px;
+    border-radius: 5px;
 }
 
 img .lado{
