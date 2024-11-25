@@ -1,16 +1,16 @@
-*{
+*{  
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
 body{
-    background-color: rgb(53, 235, 80);
+    background-color: #b1ecba;
 
 }
 
 main{
     background-color: aliceblue;
-    width: 500px;
+    max-width: 300px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px black;
@@ -23,26 +23,37 @@ h1{
     padding: 0px 9px;
     text-align: center;
     color: rgb(214, 231, 246);
+    width: 6em;
 }
 
 
 h2{
-    font-size: 2em;
+    font-size: 1em;
     background: rgb(6, 80, 34);
     border-radius: 10px;
-    padding: 0px 9px;
     text-align: center;
     color: rgb(214, 231, 246);
+    width: 6em;
+    padding: 0.5em;
 }
 
 img{
-    max-width: 300px;
+    max-width: 280px;
     max-height: 300px;
     border-radius: 5px;
 }
 
 img .lado{
     float: right;
+}
+
+p{
+    width: 18em;
+}
+
+ol, li{
+    width: 15em;
+    margin-bottom: 0.5em;
 }
 
 a{
@@ -54,4 +65,45 @@ a{
 a:hover{
     text-decoration: underline;
     color: rgb(112, 112, 240);
+}
+
+@media (min-width: 780px){
+    main{
+        max-width: 500px;
+    }
+
+    img{
+        max-width: 500px;
+    }
+
+    p{
+        width: auto;
+    }
+
+    ol, li{
+        width: auto;
+    }
+}
+
+@media(min-width: 1024px){
+    main{
+        max-width: 700px;
+    }
+
+    img{
+        min-width: 680px;
+        object-fit: cover;
+    }
+
+    p{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    ol, li{
+        font-size: 1.3em;
+    }
 }
