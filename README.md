@@ -1,15 +1,20 @@
-# projeto-site
- projeto de um site criado durante um curso de git e github do curso em video. 
+# Projeto: Informações sobre a Natureza 🌿
+ projeto de um site criado durante um curso de git e github do curso em video. <br> 
+fiz algumas mudanças para deixar responsivo feito, utilizando a técnica **Mobile First** para garantir uma ótima experiência em dispositivos móveis. O objetivo é apresentar informações sobre pássaros e florestas de forma agradável e acessível.
 
- alterei para um site referente a passaro e curiosidade
+## ✨ Funcionalidades
 
+- Exibição de informações sobre pássaros e florestas.
+- Design limpo e minimalista com foco em conteúdo.
+- Layout responsivo adaptado para dispositivos móveis e desktops.
 
- ## tecnologia usadas
- - html
- - css
+## 🎯 Tecnologias Utilizadas
+
+- **HTML5**: Estrutura e conteúdo do projeto.
+- **CSS3**: Estilização e design responsivo com a abordagem Mobile First.
 
 
  ## imagem do projeto
  
-
-![pagina](https://github.com/dorffdaniel/projeto-site/assets/157518994/1753d99b-643f-4883-8c40-9ff996eb4957)
+<img src="imagem/designSite.gif">
+<img src="imagem/telef.png">

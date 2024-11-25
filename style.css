@@ -41,6 +41,7 @@ img{
     max-width: 280px;
     max-height: 300px;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 img .lado{
@@ -73,7 +74,8 @@ a:hover{
     }
 
     img{
-        max-width: 500px;
+        min-width: 500px;
+
     }
 
     p{
@@ -92,7 +94,6 @@ a:hover{
 
     img{
         min-width: 680px;
-        object-fit: cover;
     }
 
     p{
