@@ -3,13 +3,20 @@
     font-size: 16px;
 }
 
+:root{
+    --corPrincipal:#b1ecba ;
+    --corConteudo:aliceblue;
+    --corSecundaria:rgb(6, 80, 34);
+    --corFont: rgb(214, 231, 246);
+}
+
 body{
-    background-color: #b1ecba;
+    background-color: var(--corPrincipal);
 
 }
 
 main{
-    background-color: aliceblue;
+    background-color: var(--corConteudo);
     max-width: 300px;
     margin: auto;
     padding: 10px;
@@ -18,21 +25,21 @@ main{
 
 h1{
     font-size: 2em;
-    background: rgb(6, 80, 34);
+    background: var(--corSecundaria);
     border-radius: 10px;
     padding: 0px 9px;
     text-align: center;
-    color: rgb(214, 231, 246);
+    color: var(--corFont);
     width: 6em;
 }
 
 
 h2{
     font-size: 1em;
-    background: rgb(6, 80, 34);
+    background: var(--corSecundaria);
     border-radius: 10px;
     text-align: center;
-    color: rgb(214, 231, 246);
+    color:var(--corFont);
     width: 6em;
     padding: 0.5em;
 }
@@ -55,17 +62,6 @@ p{
 ol, li{
     width: 15em;
     margin-bottom: 0.5em;
-}
-
-a{
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(112, 112, 240);
-}
-
-a:hover{
-    text-decoration: underline;
-    color: rgb(112, 112, 240);
 }
 
 @media (min-width: 780px){
