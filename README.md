@@ -18,3 +18,7 @@ fiz algumas mudanças para deixar responsivo feito, utilizando a técnica **Mobi
  
 <img src="imagem/designSite.gif">
 <img src="imagem/telef.png">
+
+## Contatos
+[linkedin](https://www.linkedin.com/in/daniel-alves-9872392a7/)
+
